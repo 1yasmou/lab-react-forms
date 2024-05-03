@@ -66,7 +66,7 @@ function App() {
               type="url"
               placeholder="Profile Image"
               value={image}
-              onChange={(e) => setFullName(e.target.value)}
+              onChange={(e) => setImage(e.target.value)}
             />
           </label>
 
